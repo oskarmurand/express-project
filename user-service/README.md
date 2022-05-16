@@ -4,6 +4,7 @@ An express service for quering user data.
 When running locally the servcice is available at http://localhost:3001
 
 ## How to install the dependencies before working on it
+- clone the repository using `git clone git@github.com:oskarmurand/express-project.git`
 - navigate to the `user-service` directory in the terminal
 - run `npm instatall`
 - the dependencies is installed and the service is ready to run
