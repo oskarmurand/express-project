@@ -16,6 +16,7 @@ const port = 3001;
     and that would make a request against the path defined here
 */
 app.get("/", (req, res) => {
+
   res.send("Hello World!");
 });
 
@@ -41,7 +42,7 @@ app.get("/users/:id", (req, res) => {
     // if user is found we return the user
     res.send({ user: user });
   } else {
-    // else we return 404 - not found
+    // else we return 404 error code. 404 means "Not Found"
     res.sendStatus(404);
   }
 });
